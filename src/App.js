@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import BasicExample from './Header';
+import AutoLayoutExample from './Modern';
+import ContainerExample from './Our-values';
+import Neque from './Neque';
+import Frequently from './Frequently';
+import UncontrolledExample from './Latest';
+import Contact from './Contact';
+import ResponsiveAutoExample from './Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <BasicExample />
+    <AutoLayoutExample/>
+
+    <ContainerExample/>
+    <Neque/>
+    <Frequently/>
+    <UncontrolledExample/>
+    <Contact/>
+    <ResponsiveAutoExample/>
+    </>
   );
 }
 
